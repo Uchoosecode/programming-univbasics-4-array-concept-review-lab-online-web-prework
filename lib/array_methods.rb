@@ -26,5 +26,10 @@ return array.max
 end
 
 def find_min_value(array)
-  # Add your solution here
+  counter = 1  
+  while counter < array.length do
+  array.min 
+  counter += 1
+end
+return array.min 
 end
