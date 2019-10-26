@@ -19,12 +19,12 @@ end
 def find_max_value(array)
   counter = 1  
   while counter < array.length do
-    if  counter < array
+    if  counter <= array
       puts array
     end
   counter += 1
 end
-return max
+return array[]
 end
 
 def find_min_value(array)
