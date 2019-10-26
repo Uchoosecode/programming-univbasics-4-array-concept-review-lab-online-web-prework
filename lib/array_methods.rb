@@ -20,7 +20,7 @@ def find_max_value(array)
   counter = 0 
   while counter < array.length do
     array => array[counter]
-      return array
+    puts array
   
 
   counter += 1
